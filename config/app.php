@@ -159,7 +159,6 @@ return [
         'Collective\Html\HtmlServiceProvider',
 
         'Laracasts\Flash\FlashServiceProvider'
-
     ],
 
     /*
