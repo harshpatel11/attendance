@@ -63,4 +63,6 @@ class Handler extends ExceptionHandler
 
         return parent::convertExceptionToResponse($e);
     }
+
+    
 }

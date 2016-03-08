@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -158,7 +158,17 @@ return [
 
         'Collective\Html\HtmlServiceProvider',
 
-        'Laracasts\Flash\FlashServiceProvider'
+        'Laracasts\Flash\FlashServiceProvider',
+
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
+
+        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
+
+         /**
+         * Third Party Service Providers...
+         */
+        Bican\Roles\RolesServiceProvider::class,
+
     ],
 
     /*
